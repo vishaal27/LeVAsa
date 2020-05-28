@@ -19,11 +19,11 @@ We make use of three main datasets:
 - Affectnet database: annotated with continuous VA values (between -1 and 1)
 - IMFDB dataset (no VA annotations, only 6 discrete emotion labels)
 
-For transferring VA annotations, we use Affectnet as the anchor dataset and leverage various transfer sampling strategies which can be found in the `Annotations_Transfer.ipynb` notebook.
+For transferring VA annotations, we use Affectnet as the anchor dataset and leverage various transfer sampling strategies which can be found in the `Code Notebooks/Annotations_Transfer.ipynb` notebook. The transferred annotations are saved as .json files, which can be found inside the `Annotations` folder.
 
 ## Training and Evaluating the models
-- The `Models_Training_1.ipynb` and `Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
-- The `Analysis.ipynb` notebook contains the code for evaluating the models both qualitatively (latent space visualization with TSNEs) and quantitatively (classification/regression scores).
+- The `Code Notebooks/Models_Training_1.ipynb` and `Code Notebooks/Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
+- The `Code Notebooks/Analysis.ipynb` notebook contains the code for evaluating the models both qualitatively (latent space visualization with TSNEs) and quantitatively (classification/regression scores).
 
 ## Saved Weights
 The saved model checkpoints can be found [here](https://drive.google.com/drive/folders/1WtyiefkL7juCL4fPAFTQQr92qWUuN6C1?usp=sharing).
