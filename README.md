@@ -25,6 +25,9 @@ For transferring VA annotations, we use Affectnet as the anchor dataset and leve
 - The `Models_Training_1.ipynb` and `Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
 - The `Analysis.ipynb` notebook contains the code for evaluating the models both qualitatively (latent space visualization with TSNEs) and quantitatively (classification/regression scores).
 
+## Saved Weights
+The saved model checkpoints can be found [here](https://drive.google.com/drive/folders/1WtyiefkL7juCL4fPAFTQQr92qWUuN6C1?usp=sharing).
+
 Project done by:
 - Vishaal Udandarao (vishaal16119@iiitd.ac.in)
 - Surabhi S. Nath (surabhi16271@iiitd.ac.in)
