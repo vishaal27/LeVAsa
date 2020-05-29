@@ -13,6 +13,8 @@ For this project, we make use of three main models:
 A common architecture representing the three models is shown below:
 ![Architecture](https://github.com/vishaal27/ValenceArousalVAE/blob/master/Models/Model_Architecture.jpg)
 
+More details about the project including models, results and hypotheses can be found in the `ValenceArousalVAE.pdf` slides.
+
 ## Datasets
 We make use of three main datasets:
 - AFEW emotional database: annotated with discrete VA values (between -10 and 10)
