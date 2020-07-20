@@ -1,8 +1,6 @@
 # LeVAsa
 
-## Introduction
-
-This repository contains the code for the paper "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment." The code has been tested on Pytorch 1.3.1 and Python 3.6.8.
+This repository contains the code for the paper "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment" The code has been tested on Pytorch 1.3.1 and Python 3.6.8.
 
 ## Abstract
 
@@ -10,9 +8,9 @@ In recent years, great strides have been made in the field of affective computin
 
 ## Methods
 
-### Algorithm
+### Annotation Transfer Algorithm
 ![Algorithm](https://github.com/vishaal27/LeVAsa/blob/master/Images/Annotation_Transfer_Algorithm.png)
-### Architectures
+### Architecture
 ![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Images/Model_Architecture.png)
 ### Datasets
 - AFEW emotional database: annotated with discrete VA values (between -10 and 10)
