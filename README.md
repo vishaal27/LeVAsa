@@ -11,8 +11,9 @@ In recent years, great strides have been made in the field of affective computin
 ## Methods
 
 ### Algorithm
+![Algorithm](https://github.com/vishaal27/LeVAsa/blob/master/Images/Annotation_Transfer_Algorithm.png)
 ### Architectures
-![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Models/Model_Architecture.png)
+![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Images/Model_Architecture.png)
 ### Datasets
 We make use of three main datasets:
 - AFEW emotional database: annotated with discrete VA values (between -10 and 10)
