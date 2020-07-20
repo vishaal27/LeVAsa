@@ -15,14 +15,13 @@ In recent years, great strides have been made in the field of affective computin
 ### Architectures
 ![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Images/Model_Architecture.png)
 ### Datasets
-We make use of three main datasets:
 - AFEW emotional database: annotated with discrete VA values (between -10 and 10)
-- Affectnet database: annotated with continuous VA values (between -1 and 1)
-- IMFDB dataset (no VA annotations, only 6 discrete emotion labels)
+- Affectnet database: annotated with continuous VA values (between -1 and 1) and 11 discrete emotional labels
+- IMFDB database: annotated with only 6 discrete emotion labels
 
 ## Experiments
 
-https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing
+The results in the paper can be reproduced using `Code Notebooks/Experiments.ipynb`. Saved weights can be obtained from [here](https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing)
 
 
 
@@ -32,9 +31,6 @@ For transferring VA annotations, we use Affectnet as the anchor dataset and leve
 - The `Code Notebooks/Models_Training_1.ipynb` and `Code Notebooks/Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
 - The `Code Notebooks/Analysis.ipynb` notebook contains the code for evaluating the models both qualitatively (latent space visualization with TSNEs) and quantitatively (classification/regression scores).
 
-## Saved Weights
-The saved model checkpoints can be found [here](https://drive.google.com/drive/folders/1WtyiefkL7juCL4fPAFTQQr92qWUuN6C1?usp=sharing).
-
-Project done by:
+Contact:
 - Vishaal Udandarao (vishaal16119@iiitd.ac.in)
 - Surabhi S. Nath (surabhi16271@iiitd.ac.in)
