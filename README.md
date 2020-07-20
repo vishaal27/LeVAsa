@@ -1,27 +1,28 @@
 # LeVAsa
 
-https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing
-
 ## Introduction
-This repository contains the code for modelling valence and arousal as latent vector spaces of regularized and vanilla VAEs. The code has been tested on Pytorch 1.3.1 and Python 3.6.8. This project was done as part of the Affective Computing (Spring '20) course at IIIT Delhi.
+This repository contains the code for modelling valence and arousal as latent vector spaces of regularized and vanilla VAEs. The code has been tested on Pytorch 1.3.1 and Python 3.6.8. This paper is titled: "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment"
 
-Emotions are popularly represented through real valued Valence (V) and Arousal (A) values. Together, these form a continuous circumplex model vector space to represent emotions. The goal of this project is to leverage one class of generative models (VAE) and explore if their latent space can be modelled as a circumplex vector space. Generating such a latent space highly aligned with VA will enable a more descriptive and disentangled representation of the emotional images.
+## Abstract
 
-For this project, we make use of three main models:
-- Vanilla VAE
-- Discrete Regularized VAE
-- Continuous Regularized VAE
+In recent years, great strides have been made in the field of affective computing. Several models have been developed to represent and quantify emotions. Two popular ones include (i) categorical models which represent emotions as discrete labels, and (ii) dimensional models which represent emotions in a Valence-Arousal (VA) circum- plex domain. However, there is no standard for annotation mapping between the two labelling methods. We build a novel algorithm for mapping categorical and dimensional model labels using annotation transfer across affective facial image datasets. Further, we utilize the transferred annotations to learn rich and interpretable data representations using a variational autoencoder (VAE). We present “LeVAsa”, a VAE model that learns implicit structure by aligning the latent space with the VA space. We evaluate the efficacy of LeVAsa by comparing performance with the Vanilla VAE using quantitative and qualitative analysis on two benchmark affective image datasets. Our results reveal that LeVAsa achieves high latent-circumplex alignment which leads to improved downstream categorical emo- tion prediction. The work also demonstrates the trade-off between degree of alignment and quality of reconstructions.
 
-A common architecture representing the three models is shown below:
-![Architecture](https://github.com/vishaal27/ValenceArousalVAE/blob/master/Models/Model_Architecture.png)
+## Methods
 
-More details about the project including models, results and hypotheses can be found in the `ValenceArousalVAE.pdf` slides.
-
-## Datasets
+### Algorithm
+### Architectures
+![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Models/Model_Architecture.png)
+### Datasets
 We make use of three main datasets:
 - AFEW emotional database: annotated with discrete VA values (between -10 and 10)
 - Affectnet database: annotated with continuous VA values (between -1 and 1)
 - IMFDB dataset (no VA annotations, only 6 discrete emotion labels)
+
+## Experiments
+
+https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing
+
+
 
 For transferring VA annotations, we use Affectnet as the anchor dataset and leverage various transfer sampling strategies which can be found in the `Code Notebooks/Annotations_Transfer.ipynb` notebook. The transferred annotations are saved as .json files, which can be found inside the `Annotations` folder.
 
