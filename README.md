@@ -21,15 +21,15 @@ In recent years, great strides have been made in the field of affective computin
 
 ## Experiments
 
-The results in the paper can be reproduced using `Code Notebooks/Experiments.ipynb`. Saved weights can be obtained from [here](https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing)
+The results in the paper can be reproduced using `Code Notebooks/Experiments.ipynb`. Saved weights can be obtained from [here](https://drive.google.com/drive/folders/1a6Z6scRZvOX6CPB-Qs0WbwrodtFAg7aI?usp=sharing). IMFDB data images should be placed inside a subfolder within `final_images/`. 
 
-
+## Annotations
 
 For transferring VA annotations, we use Affectnet as the anchor dataset and leverage various transfer sampling strategies which can be found in the `Code Notebooks/Annotations_Transfer.ipynb` notebook. The transferred annotations are saved as .json files, which can be found inside the `Annotations` folder.
 
-## Training and Evaluating the models
-- The `Code Notebooks/Models_Training_1.ipynb` and `Code Notebooks/Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
-- The `Code Notebooks/Analysis.ipynb` notebook contains the code for evaluating the models both qualitatively (latent space visualization with TSNEs) and quantitatively (classification/regression scores).
+## Training
+
+The `Code Notebooks/Models_Training_1.ipynb` and `Code Notebooks/Models_Training_2.ipynb` notebooks contain the model classes and training scripts including the code to save checkpoints.
 
 Contact:
 - Vishaal Udandarao (vishaal16119@iiitd.ac.in)
