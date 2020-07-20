@@ -1,7 +1,8 @@
 # LeVAsa
 
 ## Introduction
-This repository contains the code for modelling valence and arousal as latent vector spaces of regularized and vanilla VAEs. The code has been tested on Pytorch 1.3.1 and Python 3.6.8. This paper is titled: "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment"
+
+This repository contains the code for the paper "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment." The code has been tested on Pytorch 1.3.1 and Python 3.6.8.
 
 ## Abstract
 
@@ -10,7 +11,6 @@ In recent years, great strides have been made in the field of affective computin
 ## Methods
 
 ### Algorithm
-[!Algorithm](https://github.com/vishaal27/LeVAsa/blob/master/Models/algorithm.PNG)
 ### Architectures
 ![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Models/Model_Architecture.png)
 ### Datasets
