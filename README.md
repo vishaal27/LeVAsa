@@ -10,7 +10,7 @@ In recent years, great strides have been made in the field of affective computin
 ## Methods
 
 ### Algorithm
-[!Algorithm](https://github.com/vishaal27/LeVAsa/blob/master/Models/algorithm.png)
+[!Algorithm](https://github.com/vishaal27/LeVAsa/blob/master/Models/algorithm.PNG)
 ### Architectures
 ![Architecture](https://github.com/vishaal27/LeVAsa/blob/master/Models/Model_Architecture.png)
 ### Datasets
