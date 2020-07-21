@@ -1,6 +1,6 @@
 # LeVAsa
 
-This repository contains the code for the paper "It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment" The code has been tested on Pytorch 1.3.1 and Python 3.6.8.
+This repository contains the code for the paper [It’s LeVAsa not LevioSA! Latent Encodings for Valence-Arousal Structure Alignment](https://arxiv.org/pdf/2007.10058.pdf). The code has been tested on Pytorch 1.3.1 and Python 3.6.8.
 
 ## Abstract
 
